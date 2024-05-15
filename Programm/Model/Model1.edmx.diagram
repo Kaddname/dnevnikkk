@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0e312030bb5845e18b2ad1bb20063811" Name="Diagram1">
+        <EntityTypeShape EntityType="dnevnikBDModel.Avatar" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Language" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Lvl" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Role" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Score" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Teachers" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.TeachersPin" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dnevnikBDModel.Users" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Avatar" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Teachers_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Lvl" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Teachers_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Score1" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Teachers_TeachersPin" ManuallyRouted="false" />
+        <AssociationConnector Association="dnevnikBDModel.FK_Users_Teachers1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
